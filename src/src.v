@@ -2,7 +2,7 @@
 //Micro - Architecture ALU
 // Jeanpaull Valencia Quintero - 2200496
 // Carlos Humberto Diaz Salazar - 2182353
-module ALU #(parameter n = 32)(
+module src #(parameter n = 32)(
 input [n-1:0]SrcA, //input definitions : SrcA and SrcB coming from the Register output data signals
 input [n-1:0]SrcB,
 input [2:0]ALUControl, // ALU control comes from the main controller
